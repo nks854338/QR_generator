@@ -11,10 +11,11 @@ h1 {
     justify-content: center;
     font-size: 5vmin;
     height: 12vmin;
+    box-shadow: 0 0 15px rgb(35, 34, 34);
 }
 
 .container {
-    height: 88vh;
+    height: 80vh;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -82,13 +83,17 @@ h1 {
 
 
 @media(max-width:675px) {
+    h1{
+        font-weight: 800;
+        height: 14;
+    }
     .name {
         width: 40vmin;
     }
 
     #img {
         position: relative;
-        top: 35%;
+        top: 12%;
         height: fit-content;
     }
 }
