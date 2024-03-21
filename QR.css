@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vmin;
+    height: 12vmin;
+}
+
+.container {
+    height: 88vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    padding: 5vmin;
+    background-color: black;
+    display: grid;
+    gap: 4vmin;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+
+.getURL {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyButton {
+    font-size: 2.5vmin;
+    font-weight: 600;
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 5vmin;
+    width: 20vmin;
+}
+
+.name {
+    width: 90vmin;
+}
+
+.name,
+.submit {
+    padding: 1vmin;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 2.3vmin;
+    font-weight: 700;
+    background-color: #ffffff;
+    color: black;
+}
+
+.QR_image {
+    text-align: center;
+    height: 30vh;
+}
+
+.share {
+    background-color: #ffffff;
+    color: black;
+    border-radius: 10px;
+    padding: 1vmin;
+    width: 80vmin;
+    height: 5vmin;
+    overflow-x: scroll;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+@media(max-width:675px) {
+    .name {
+        width: 40vmin;
+    }
+
+    #img {
+        position: relative;
+        top: 20vmin;
+        height: fit-content;
+    }
+}

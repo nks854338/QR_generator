@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="QR.css">
+    <title>QR generator</title>
+</head>
+
+<body>
+    <h1>QR Generator</h1>
+    <div class="container">
+        <div class="box">
+            <div class="QR_image hide">
+                <img src="#" height="200vh" id="img">
+            </div>
+            <div class="getURL">
+                <input type="text" placeholder="Enter URL..." class="name" name="name">
+                <input type="submit" class="submit" value="Submit">
+            </div>
+            <button class="copyButton hide">Copy URL</button>
+            <pre class="share hide">https://api.qrserver.com/v1/create-qr-code/?size=150x150&data= htt-code/?size=150x150&data=
+            </pre>
+        </div>
+    </div>
+</body>
+<script src="QR.js"></script>
+
+</html>
