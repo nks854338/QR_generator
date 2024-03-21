@@ -46,7 +46,7 @@ h1 {
 }
 
 .name {
-    width: 90vmin;
+    width: 70vmin;
 }
 
 .name,
@@ -88,7 +88,7 @@ h1 {
 
     #img {
         position: relative;
-        top: 20vmin;
+        top: 35%;
         height: fit-content;
     }
 }
