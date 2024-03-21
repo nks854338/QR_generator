@@ -24,7 +24,7 @@ h1 {
     padding: 5vmin;
     background-color: black;
     display: grid;
-    gap: 4vmin;
+    gap: 8vmin;
     align-items: center;
     justify-content: center;
     border-radius: 20px;
@@ -88,7 +88,7 @@ h1 {
 
     #img {
         position: relative;
-        top: 35%;
+        top: 15%;
         height: fit-content;
     }
 }
